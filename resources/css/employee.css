@@ -1,0 +1,340 @@
+:root{
+
+font-size: 16px;
+
+--test-primary: '#69a418';
+--test-secondary: '#98FB98';
+--test-accent: '#51B74F';
+}
+
+body{
+
+color: black;
+background-color: white;
+margin:0;
+padding: 0;
+}
+
+main{
+margin-left:5rem;
+padding: 1rem;
+}
+
+.bgtext{
+    position: absolute;
+    bottom: -100px;
+    left: 300px;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    /* Add any other styles you want for the absolute text */
+    background-color: rgba(0, 0, 0, 0.7);
+    text-color: #51B74F;
+}
+
+.ptag {
+    margin: 0; /* Remove default margin for the <p> element */
+    font-size: 18px;
+    /* Add any other styles you want for the text */
+    color: #51B74F;
+}
+
+
+.container img {
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 0;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    z-index: 1;
+    margin: 0; /* Remove default margin for the h1 element */
+    zoom: 0.8;
+    -moz-transform: scale(0.9);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.9);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.9);
+    -webkit-transform-origin: 0 0;
+    
+    /* Center the element horizontally */
+    margin-left: 1000px;
+    margin-top: 100px;
+   
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+ /*Profile image section */
+.avatar{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+div.profile {
+    position: relative;
+    width: 120px; /* Adjust the width to match the icon size */
+    height: 120px; /* Adjust the height to match the icon size */
+    bottom: 0px;
+    margin-left: 80px;
+}
+
+
+/* Optional: If you want to center the content horizontally */
+.container {
+    margin: 0 auto;
+}
+
+
+/* name container */
+.names-container {
+    position: relative;
+    margin-top: 100px; /* Adjust the top margin based on your preference */
+    margin-left:-300px;
+}
+
+.name {
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 500;
+    display: inline-block; 
+    
+}
+
+.user-name{
+    position: absolute;
+    left: 60%; /* Center horizontally */
+    transform: translateX(-40%);
+    margin-top: 40px;
+    display: block; 
+    color: #51B74F; 
+    
+}
+
+.profile-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add margin as needed */
+    left: 220px;
+    top: 100px;
+}
+
+.profile-info {
+    position: relative;
+    display: inline-block;
+    height: 120px; /* Adjust the height as needed */
+    vertical-align: top; /* Align the content at the top of the div */
+    width: 50%; /* Adjust the width for better spacing */
+}
+
+/* Adjust the width and text-align to position the "Phone Number" on the right */
+.profile-info:last-child {
+    width: 50%; /* Adjust the width for better spacing */
+    text-align: right;
+}
+
+.specialization {
+    position: relative;
+    display: block;
+    margin-top: 90px; /* Add margin as needed */
+    right: 320px
+}
+
+.rating {
+    position: relative;
+    right: 400px;
+    top: 200px; 
+    display: inline-flex; /* Use inline-flex to keep them in a row */
+    align-items: center;
+    margin-right: 10px; /* Adjust the margin-right value to your preference */
+}
+
+.rating h2 {
+    font-size: 15px;
+    margin-left: -100px; /* Add margin or adjust as needed */
+}
+
+/* username container*/
+
+/* Cardcontainer1*/
+.card-container{
+    position: relative;
+    left: 50px;
+}
+
+.left-cards{
+    position: relative;
+    top: 140px;
+
+}
+.card1 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #51B74F;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 630px;
+    top: -140px; /* Adjust the margin-top as needed to create space between card1 and card2 */
+    left: 150px;
+    height: 750px;
+}
+
+h2{
+    color: black;
+}
+
+
+.card2 {
+   
+    position: absolute;
+    background-color:  #98FB98;
+    left: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius:  30px;
+    padding: 15px;
+
+    text-align: center;
+    width: 300px;
+    top: -170px;
+    height: 60px;
+    z-index: 10;
+}
+
+.card2 p{
+    color:#232b2b;
+}
+
+.edit-button {
+    background-color: #98FB98;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 700%;
+    left: 1300px;
+    position: relative;
+}
+
+
+
+.card2 .edit-button p {
+    color: black; 
+}
+
+
+.right-container1{
+    position: relative;
+    top: 60px;
+}
+/* Cardcontainer2 lright side cards*/   
+.card3{
+    position: absolute;
+    background-color:  #98FB98;
+    border: 1px solid  #51B74F;
+    right: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius:  30px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    top:-90px;
+    height: 60px;
+    z-index: 10;
+    
+
+}
+
+.card4{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #51B74F;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 1000px;
+    top: -60px; /* Adjust the margin-top as needed to create space between card1 and card2 */
+    height: 300px;
+    right: 100px;
+}
+.card4 p {
+    margin: 0; /* Remove default margin for <p> */
+    line-height: 1.5; /* Set the line height for better readability */
+}
+
+.right-container2{
+    position: relative;
+    top: 420px;
+}
+.card5{
+    position: absolute;
+    background-color: #98FB98;
+    border: 1px solid  #51B74F;
+    right: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius:  30px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    top:-90px;
+    height: 60px;
+    z-index: 10;
+}
+.card6{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #51B74F;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    width: 1000px;
+    top: -60px; /* Adjust the margin-top as needed to create space between card1 and card2 */
+    height: 300px;
+    right: 100px;
+}
+
+.card4 p{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.card6 p{
+    margin-top: 30px;
+    margin-left: 10px;
+ }

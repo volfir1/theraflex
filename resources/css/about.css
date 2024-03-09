@@ -1,0 +1,28 @@
+.image-style{
+
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bgtext{
+    position: absolute;
+    bottom: -200px;
+    left: 300px;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    /* Add any other styles you want for the absolute text */
+    background-color: rgba(0, 0, 0, 0.7);
+    text-color: #51B74F;
+}
+
+.ptag {
+    margin: 0; /* Remove default margin for the <p> element */
+    font-size: 18px;
+    /* Add any other styles you want for the text */
+    color: #51B74F;
+}
+
+
